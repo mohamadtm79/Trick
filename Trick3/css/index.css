@@ -1,0 +1,68 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #161819;
+}
+.clip{
+    position: relative;
+    width: 16%;
+    height: 100px;
+    margin-bottom: 20px;
+    box-shadow: 0 0px 25px 10px rgb(255 255 255 / 32%);
+}
+.clip>.right{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    clip-path: polygon(60% 0%, 100% 0, 100% 100%, 60% 100%, 40% 50%);
+    height: 100%;
+    background-color: #ffd100;
+    transition: 1s;
+}
+.clip>.right:hover{
+    clip-path: polygon(0% 0%, 100% 0, 100% 100%, 0% 100%, 0% 50%);
+    transition: 1s;
+}
+
+.clip>.left:hover ~ .right{
+    clip-path: polygon(100% 0%, 100% 0, 100% 100%, 100% 100%, 100% 50%);
+}
+.clip>.left{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(42 38 38);
+    transition: 1s;
+}
+
+.clip>div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aqua;
+}
+span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: #fffaf0;
+    text-align: center;
+    line-height: 100px;
+    text-transform: uppercase;
+    font-size: 21px;
+    letter-spacing: 1.5px;
+    border-radius: 5px
+}
+.right span{
+    color: black;
+}

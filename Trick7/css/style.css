@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+    margin: 0;padding: 0;
+}
+.king{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(45deg, black, transparent);
+}
+.border-rc{
+    width: 26%;
+    height: 47%;
+    border: 2px solid black;
+    border-radius: 50%;
+    margin: 0 auto;
+    position: relative;
+    transform-style: preserve-3d;
+}
+
+.border-rc::after{
+    content: '';
+    display: block;
+    position: absolute;
+    width: 61%;
+    border: 10px solid black;
+    height: 19%;
+    border-top: none;
+    border-radius: 54%;
+    border-left: none;
+    bottom: 18%;
+    border-right: none;
+    left: 20%;
+}
+
+
+.ayse1 , .ayse2{
+    width: 13%;
+    height: 13%;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    border-radius: 50%;
+    top: 23%;
+    left: 20%;
+}
+
+.ayse2{
+    left: 67% !important;
+}
+
+
+
+
+
+
+
+
+
+.hl{
+    width: 33%;
+    height: 48%;
+    margin: 0 auto;
+    border: 2px solid black;
+    border-radius: 16px;
+    position: relative;
+}
+.hl::after{
+    content: '';
+    display: block;
+    width: 1px;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    left: 48.3%;
+    top:0;
+}
+.kerebat{
+    width: 13%;
+    height: 25%;
+    z-index: 22;
+    background-color: rgb(0, 0, 0);
+    clip-path: polygon(0% 0%, 100% 0%, 50% 50%, 100% 100%, 0% 100%, 50% 50%, 0% 0%);
+    transform: rotate(90deg);
+    position: absolute;
+    top: -12%;
+    left: 42%;
+}
+.hl>.doc{
+    width: 5%;
+    border-radius: 50%;
+    height: 6%;
+    background-color: #1f1f1f;
+    margin: 27px 49%;
+}

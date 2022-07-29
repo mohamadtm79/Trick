@@ -1,0 +1,2359 @@
+.para{
+    width: 600px;
+    height: 600px;
+    margin: auto;
+    position: relative;
+}
+body{
+    width: 99%;
+    height: 95vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, #3a393c, #cdb0e7);
+    overflow: hidden;
+}
+.para>div{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.para-1{
+    background-color: #1f1b1c;
+    clip-path: polygon(16.9% 19.4%, 15.1% 8.3%, 5.7% 16%);
+    animation: p1 4s forwards 0.4s ;
+    top: -32%;
+    left: -42%;
+}
+@keyframes p1{
+    to{
+        top: 0%;
+        left: 0%;
+    }
+    from{
+        top: -32%;
+        left: -42%;
+    }
+}
+.para-2{
+    background-color: #272121;
+    clip-path: polygon(5% 26.4%, 5.7% 16%, 16.9% 19.4%);
+    left: -106%;
+    animation: p2 4s forwards 0.5s ;
+}
+
+@keyframes p2{
+    to{
+        left: 0%;
+    }
+    from{
+        left: -106%;
+    }
+}
+
+
+
+.para-3{
+    background-color: #272322;  
+    clip-path: polygon(5% 26.4%, 9.1% 33.3%, 16.9% 19.4%);
+    left: -96%;
+    top: 68%;
+    animation: p3 4s forwards 0.6s ;
+}
+
+@keyframes p3{
+    to{
+        left: 0%;
+        top: 0;
+    }
+    from{
+        left: -96%;
+        top: 68%;
+    }
+}
+
+
+
+.para-4{
+    background-color: #333333;
+    clip-path: polygon(16.4% 34.9%, 9.1% 33.3%, 16.9% 19.4%);
+    top: 97%;
+    left: -46%;
+    animation: p4 4s forwards 0.7s ;
+}
+@keyframes p4{
+    to{
+        left: 0%;
+        top: 0;
+    }
+    from{
+        top: 97%;
+        left: -46%;
+    }
+}
+.para-5{
+    background-color: #403C3D;
+    clip-path: polygon(16.4% 34.9%, 30.1% 19.4%, 16.9% 19.4%);
+    animation: p5 4s forwards 0.8s ;
+    top: 89%;
+    left: 154%;
+}
+@keyframes p5{
+    to{
+        left: 0%;
+        top: 0;
+    }
+    from{
+        top: 89%;
+    left: 154%;
+    }
+}
+.para-6{
+    background-color: #333333;
+    clip-path: polygon(29.3% 13.7%, 30.1% 19.4%, 16.9% 19.4%);
+    animation: p6 4s forwards 0.9s ;
+    top: -23%;
+    left: 161%;
+}
+@keyframes p6{
+    to{
+        left: 0%;
+        top: 0;
+    }
+    from{
+        top: -23%;
+        left: 161%;
+    }
+}
+.para-7{
+    background-color: #272322;
+    clip-path: polygon(29.3% 13.7%, 24.6% 8.3%, 16.9% 19.4%);
+    animation: p7 4s forwards 1s ;
+    top: -33%;
+    left: 35%;
+}
+@keyframes p7{
+    to{
+        left: 0%;
+        top: 0;
+    }
+    from{
+        top: -33%;
+        left: 35%;
+    }
+}
+.para-8{
+    background-color: #272121;
+    clip-path: polygon(15.1% 8.3%, 24.6% 8.3%, 16.9% 19.4%);
+    top: -35%;
+    animation: p8 4s forwards 1s ;
+}
+@keyframes p8{
+    to{
+        left: 0%;
+        top: 0;
+    }
+    from{
+        top: -35%;
+    }
+}
+.para-9{
+    background-color: #E4E0D4;
+    clip-path: polygon(29.3% 13.7%, 30.1% 19.4%, 40.2% 9.2%);
+    animation: p9 4s forwards 1.2s;
+    top: -33%;
+}
+@keyframes p9{
+    to{
+        left: 0%;
+        top: 0;
+    }
+    from{
+        top: -33%;
+    }
+}
+.para-10{
+    background-color: #FBF7F6;
+    clip-path: polygon(41.6% 27.1%, 30.1% 19.4%, 40.2% 9.2%);
+    animation: p10 4s forwards 1.3s;
+    top: 69%;
+    left: -124%;
+}
+@keyframes p10{
+    to{
+        left: 0%;
+        top: 0;
+    }
+    from{
+        top: 69%;
+        left: -124%;
+    }
+}
+.para-11{
+    background-color: #F7F3F2;
+    clip-path: polygon(41.6% 27.3%, 50.1% 19.45%, 40.2% 9.2%);
+    animation: p11 4s forwards 1.3s;
+    top: 169%;
+}
+@keyframes p11{
+    to{
+        left: 0%;
+        top: 0;
+    }
+    from{
+        top: 169%;
+    }
+}
+.para-12{
+    background-color: #FAFAFA;
+    clip-path: polygon(50.1% 8.2%, 50.1% 19.4%, 40.2% 9.2%);
+    animation: p12 4s forwards 1.4s;
+    top: -116%;
+}
+@keyframes p12{
+    to{
+        left: 0%;
+        top: 0;
+    }
+    from{
+        top: -116%;
+    }
+}
+.para-13{
+    background-color: #FAFAFA;
+    clip-path: polygon(50.1% 8.2%, 50.1% 19.4%, 60.2% 9.2%);
+    animation: p13 4s forwards 1.5s;
+    top: 72%;
+    left: 139%;
+}
+@keyframes p13{
+    to{
+        left: 0%;
+        top: 0;
+    }
+    from{
+        top: 72%;
+        left: 139%;
+    }
+}
+.para-14{
+    background-color: #F7F3F2;
+    clip-path: polygon(58.5% 27.1%, 50.1% 19.45%, 60.2% 9.2%);
+    animation: p14 4s forwards 1.8s;
+    top: 52%;
+    left: 139%;
+}
+@keyframes p14{
+    to{
+        left: 0%;
+        top: 0;
+    }
+    from{
+        top: 52%;
+        left: 139%;
+    }
+}
+.para-15{
+    background-color: #FBF7F6;
+    clip-path: polygon(58.5% 27.2%, 70.2% 19.55%, 60.2% 9.2%);
+    animation: p15 4s forwards 2s;
+    top: 22%;
+    left: 139%;
+}
+@keyframes p15{
+    to{
+        left: 0%;
+        top: 0;
+    }
+    from{
+        top: 22%;
+        left: 139%;
+    }
+}
+.para-16{
+    background-color: #E4E0D4;
+    clip-path: polygon(70.8% 13.7%, 70.1% 19.5%, 60.2% 9.2%);
+    animation: p16 4s forwards 2.2s;
+    top: 12%;
+    left: 139%;
+}
+@keyframes p16{
+    to{
+        left: 0%;
+        top: 0;
+    }
+    from{
+        top: 12%;
+        left: 139%;
+    }
+}
+.para-17{
+    background-color: #333333;
+    clip-path: polygon(70.8% 13.7%, 70.1% 19.6%, 83.1% 19.4%);
+    animation: p17 4s forwards 2.4s;
+    top: 10%;
+    left: 139%;
+}
+@keyframes p17{
+    to{
+        left: 0%;
+        top: 0;
+    }
+    from{
+        top: 10%;
+        left: 139%;
+    }
+}
+.para-18{
+    background-color: #272322;
+    clip-path: polygon(70.8% 13.7%, 75.7% 8.2%, 83.1% 19.4%);
+    animation: p18 4s forwards 2.6s;
+    top: 0%;
+    left: 139%;
+}
+@keyframes p18{
+    to{
+        left: 0%;
+        top: 0;
+    }
+    from{
+        top: 0%;
+        left: 139%;
+    }
+}
+.para-19{
+    background-color: #272121;
+    clip-path: polygon(84.8% 8.1%, 75.7% 8.2%, 83.1% 19.4%);
+    animation: p19 4s forwards 2.7s;
+    top: 0%;
+    left: -179%;
+}
+@keyframes p19{
+    to{
+        left: 0%;
+        top: 0;
+    }
+    from{
+        top: 0%;
+        left: -179%;
+    }
+}
+.para-20{
+    background-color: #1F1B1C;
+    clip-path: polygon(84.8% 8.1%, 94.5% 16.1%, 83.1% 19.4%);
+    animation: p20 4s forwards 2.9s;
+    top: 10%;
+    left: -179%;
+}
+@keyframes p20{
+    to{
+        left: 0%;
+        top: 0;
+    }
+    from{
+        top: 10%;
+        left: -179%;
+    }
+}
+.para-21{
+    background-color: #272121;
+    clip-path: polygon(95.1% 26.3%, 94.5% 16.1%, 83.1% 19.4%);
+    animation: p21 4s forwards 3s;
+    top: 20%;
+    left: -179%;
+}
+@keyframes p21{
+    to{
+        left: 0%;
+        top: 0;
+    }
+    from{
+        top: 20%;
+        left: -179%;
+    }
+}
+.para-22{
+    background-color: #272322;
+    clip-path: polygon(95.1% 26.3%, 91.1% 33.3%, 83.1% 19.4%);
+    animation: p22 4s forwards 3.3s;
+    top: 30%;
+    left: -179%;
+}
+@keyframes p22{
+    to{
+        left: 0%;
+        top: 0;
+    }
+    from{
+        top: 30%;
+        left: -179%;
+    }
+}
+.para-23{
+    background-color: #333333;
+    clip-path: polygon(83.8% 34.9%, 91.1% 33.3%, 83.1% 19.4%);
+    animation: p23 4s forwards 3.5s;
+    top: 40%;
+    left: -179%;
+}
+@keyframes p23{
+    to{
+        left: 0%;
+        top: 0;
+    }
+    from{
+        top: 40%;
+        left: -179%;
+    }
+}
+.para-24{
+    background-color: #403C3D;
+    clip-path: polygon(83.8% 34.9%, 70.1% 19.6%, 83.1% 19.4%);
+    animation: p24 4s forwards 3.7s;
+    top: 50%;
+    left: -179%;
+}
+@keyframes p24{
+    to{
+        left: 0%;
+        top: 0;
+    }
+    from{
+        top: 50%;
+        left: -179%;
+    }
+}
+.para-25{
+    background-color: #E4E0D4;
+    clip-path: polygon(83.8% 34.9%, 70.1% 19.6%, 70.2% 29.8%);
+    animation: p25 4s forwards 3.9s;
+    top: 60%;
+    left: -179%;
+}
+@keyframes p25{
+    to{
+        left: 0%;
+        top: 0;
+    }
+    from{
+        top: 60%;
+        left: -179%;
+    }
+}
+.para-26{
+    background-color: #F1EDEC;
+    clip-path: polygon(58.5% 27.2%, 70.1% 19.6%, 70.2% 29.8%);
+    animation: p26 4s forwards 4s;
+    top: 70%;
+    left: -179%;
+}
+@keyframes p26{
+    to{
+        left: 0%;
+        top: 0;
+    }
+    from{
+        top: 70%;
+        left: -179%;
+    }
+}
+.para-27{
+    background-color: #F4F1EA;
+    clip-path: polygon(58.6% 27.2%, 64.4% 40.4%, 70.2% 29.8%);
+    animation: p27 4s forwards 4.2s;
+    top: 80%;
+    left: -179%;
+}
+@keyframes p27{
+    to{
+        left: 0%;
+        top: 0;
+    }
+    from{
+        top: 80%;
+        left: -179%;
+    }
+}
+.para-28{
+    background-color: #FBF7F6;
+    clip-path: polygon(58.6% 27.2%, 64.4% 40.4%, 56.1% 44.0%);
+    animation: p28 4s forwards 4.5s;
+    top: 90%;
+    left: -179%;
+}
+@keyframes p28{
+    to{
+        left: 0%;
+        top: 0;
+    }
+    from{
+        top: 90%;
+        left: -179%;
+    }
+}
+.para-29{
+    background-color: #F4F1EA;
+    clip-path: polygon(58.6% 27.2%, 50.2% 37.0%, 56.1% 44.1%);
+    animation: p29 4s forwards 4.6s;
+    top: 100%;
+    left: -179%;
+}
+@keyframes p29{
+    to{
+        left: 0%;
+        top: 0;
+    }
+    from{
+        top: 100%;
+        left: -179%;
+    }
+}
+.para-30{
+    background-color: #FAFAFA;
+    clip-path: polygon(58.6% 27.2%, 50.2% 37.0%, 50.1% 19.5%);
+    animation: p30 4s forwards 4.7s;
+    top: 100%;
+    left: -79%;
+}
+@keyframes p30{
+    to{
+        left: 0%;
+        top: 0;
+    }
+    from{
+        top: 100%;
+        left: -79%;
+    }
+}
+.para-31{
+    background-color: #FAFAFA;
+    clip-path: polygon(41.7% 27.2%, 50.2% 37.0%, 50.1% 19.5%);
+    animation: p31 4s forwards 4.8s;
+    top: 100%;
+    left: -89%;
+}
+@keyframes p31{
+    to{
+        left: 0%;
+        top: 0;
+    }
+    from{
+        top: 100%;
+        left: -89%;
+    }
+}
+.para-32{
+    background-color: #F4F1EA;
+    clip-path: polygon(41.7% 27.2%, 50.2% 37.0%, 44.2% 44%);
+    animation: p32 4s forwards 4.9s;
+    top: 100%;
+    left: -69%;
+}
+@keyframes p32{
+    to{
+        left: 0%;
+        top: 0;
+    }
+    from{
+        top: 100%;
+        left: -69%;
+    }
+}
+.para-33{
+    background-color: #FBF7F6;
+    clip-path: polygon(41.7% 27.2%, 35.7% 40.4%, 44.2% 44%);
+    animation: p33 4s forwards 5s;
+    top: 100%;
+    left: -59%;
+}
+@keyframes p33{
+    to{
+        left: 0%;
+        top: 0;
+    }
+    from{
+        top: 100%;
+        left: -59%;
+    }
+}
+.para-34{
+    background-color: #F4F1EA;
+    clip-path: polygon(41.7% 27.2%, 35.7% 40.4%, 30.1% 29.9%);
+    animation: p34 4s forwards 5.1s;
+    top: 100%;
+    left: -49%;
+}
+@keyframes p34{
+    to{
+        left: 0%;
+        top: 0;
+    }
+    from{
+        top: 100%;
+        left: -49%;
+    }
+}
+.para-35{
+    background-color: #F1EDEC;
+    clip-path: polygon(41.7% 27.2%, 30.1% 19.4%, 30.1% 29.9%);
+    animation: p35 4s forwards 5.2s;
+    top: 100%;
+    left: -39%;
+}
+@keyframes p35{
+    to{
+        left: 0%;
+        top: 0;
+    }
+    from{
+        top: 100%;
+        left: -39%;
+    }
+}
+.para-36{
+    background-color: #E4E0D4;
+    clip-path: polygon(16.4% 34.9%, 30.1% 19.4%, 30.1% 29.9%);
+    animation: p36 4s forwards 5.3s;
+    top: 100%;
+    left: -29%;
+}
+@keyframes p36{
+    to{
+        left: 0%;
+        top: 0;
+    }
+    from{
+        top: 100%;
+        left: -29%;
+    }
+}
+.para-37{
+    background-color: #F1EDEC;
+    clip-path: polygon(16.4% 34.9%, 25.4% 40.3%, 30.1% 29.9%);
+    animation: p37 4s forwards 5.4s;
+    top: 100%;
+    left: -19%;
+}
+@keyframes p37{
+    to{
+        left: 0%;
+        top: 0;
+    }
+    from{
+        top: 100%;
+        left: -19%;
+    }
+}
+.para-38{
+    background-color: #E4E0D4;
+    clip-path: polygon(16.4% 34.9%, 25.4% 40.3%, 10.5% 42.9%);
+    animation: p38 4s forwards 5.5s;
+    top: 100%;
+    left: -10%;
+}
+@keyframes p38{
+    to{
+        left: 0%;
+        top: 0;
+    }
+    from{
+        top: 100%;
+        left: -10%;
+    }
+}
+.para-39{
+    background-color: #EDEBDF;
+    clip-path: polygon(35.7% 40.4%, 25.4% 40.3%, 30.1% 29.9%);
+    animation: p39 4s forwards 5.5s;
+    top: 100%;
+}
+@keyframes p39{
+    to{
+        left: 0%;
+        top: 0;
+    }
+    from{
+        top: 100%;
+    }
+}
+.para-40{
+    background-color: #EDEBDF;
+    clip-path: polygon(23.75% 48.15%, 25.4% 40.3%, 10.5% 42.9%);
+    animation: p40 4s forwards 5.6s;
+    top: 100%;
+    left: 45%;
+}
+@keyframes p40{
+    to{
+        left: 0%;
+        top: 0;
+    }
+    from{
+        top: 100%;
+        left: 45%;
+    }
+}
+.para-41{
+    background-color: #DDD9CD;
+    clip-path: polygon(23.7% 48.1%, 10.5% 55.5%, 10.5% 42.9%);
+    animation: p41 4s forwards 5.8s;
+    top: 100%;
+    left: 55%;
+}
+@keyframes p41{
+    to{
+        left: 0%;
+        top: 0;
+    }
+    from{
+        top: 100%;
+        left: 55%;
+    }
+}
+.para-42{
+    background-color: #F0EDE6;
+    clip-path: polygon(23.8% 48.05%, 10.5% 55.5%, 27.7% 61.3%);
+    animation: p42 4s forwards 5.9s;
+    top: 100%;
+    left: 65%;
+}
+@keyframes p42{
+    to{
+        left: 0%;
+        top: 0;
+    }
+    from{
+        top: 100%;
+        left: 65%;
+    }
+}
+.para-43{
+    background-color: #DDD9CD;
+    clip-path: polygon(17.5% 67.4%, 10.5% 55.5%, 27.7% 61.3%);
+    animation: p43 4s forwards 6s;
+    top: 100%;
+    left: 75%;
+}
+@keyframes p43{
+    to{
+        left: 0%;
+        top: 0;
+    }
+    from{
+        top: 100%;
+        left: 75%;
+    }
+}
+.para-44{
+    background-color: #EBE2DD;
+    clip-path: polygon(17.5% 67.4%, 30.0% 65.8%, 27.7% 61.3%);
+    animation: p44 4s forwards 6.2s;
+    top: 100%;
+    left: 85%;
+}
+@keyframes p44{
+    to{
+        left: 0%;
+        top: 0;
+    }
+    from{
+        top: 100%;
+        left: 85%;
+    }
+}
+.para-45{
+    background-color: #DDD9CD;
+    clip-path: polygon(17.5% 67.4%, 30.0% 65.8%, 26.1% 73.7%);
+    animation: p45 4s forwards 6.2s;
+    top: 100%;
+    left: 95%;
+}
+@keyframes p45{
+    to{
+        left: 0%;
+        top: 0;
+    }
+    from{
+        top: 100%;
+        left: 95%;
+    }
+}
+.para-46{
+    background-color: #EBE2DD;
+    clip-path: polygon(34.5% 65.8%, 30.0% 65.8%, 26.1% 73.7%);
+    animation: p46 4s forwards 6.4s;
+    top: 100%;
+    left: 105%;
+}
+@keyframes p46{
+    to{
+        left: 0%;
+        top: 0;
+    }
+    from{
+        top: 100%;
+        left: 105%;
+    }
+}
+.para-47{
+    background-color: #D7D0C0;
+    clip-path: polygon(34.5% 65.8%, 33.1% 76.1%, 26.1% 73.7%);
+    animation: p47 4s forwards 6.6s;
+    top: 100%;
+    left: 110%;
+}
+@keyframes p47{
+    to{
+        left: 0%;
+        top: 0;
+    }
+    from{
+        top: 100%;
+        left: 110%;
+    }
+}
+.para-48{
+    background-color: #E7DFD4;
+    clip-path: polygon(34.5% 65.8%, 33.1% 76.1%, 42.6% 73.8%);
+    animation: p48 4s forwards 6.7s;
+    top: 100%;
+    left: 115%;
+}
+@keyframes p48{
+    to{
+        left: 0%;
+        top: 0;
+    }
+    from{
+        top: 100%;
+        left: 115%;
+    }
+}
+.para-49{
+    background-color: #D6D3CC;
+    clip-path: polygon(42.6% 76.8%, 33.1% 76.1%, 42.6% 73.8%);
+    animation: p49 4s forwards 6.8s;
+    top: 100%;
+    left: 120%;
+}
+@keyframes p49{
+    to{
+        left: 0%;
+        top: 0;
+    }
+    from{
+        top: 100%;
+        left: 120%;
+    }
+}
+.para-50{
+    background-color: #DEDCCF;
+    clip-path: polygon(42.6% 76.8%, 33.1% 76.1%, 36.9% 81.1%);
+    animation: p50 4s forwards 7s;
+    top: 100%;
+    left: 125%;
+}
+@keyframes p50{
+    to{
+        left: 0%;
+        top: 0;
+    }
+    from{
+        top: 100%;
+        left: 125%;
+    }
+}
+.para-51{
+    background-color: #C9C3AB;
+    clip-path: polygon(42.6% 76.8%, 44.3% 84.0%, 36.9% 81.1%);
+    animation: p51 4s forwards 7.1s;
+    top: 100%;
+    left: 130%;
+}
+@keyframes p51{
+    to{
+        left: 0%;
+        top: 0;
+    }
+    from{
+        top: 100%;
+        left: 130%;
+    }
+}
+.para-52{
+    background-color: #D2CFBC;
+    clip-path: polygon(42.6% 76.8%, 44.3% 84.0%, 50.1% 80.95%);
+    animation: p52 4s forwards 7.2s;
+    top: 100%;
+    left: 135%;
+}
+@keyframes p52{
+    to{
+        left: 0%;
+        top: 0;
+    }
+    from{
+        top: 100%;
+        left: 135%;
+    }
+}
+.para-53{
+    background-color: #C9C3AB;
+    clip-path: polygon(50.1% 84.9%, 44.3% 84.0%, 50.1% 80.95%);
+    animation: p53 4s forwards 7.3s;
+    top: 100%;
+    left: 140%;
+}
+@keyframes p53{
+    to{
+        left: 0%;
+        top: 0;
+    }
+    from{
+        top: 100%;
+        left: 140%;
+    }
+}
+.para-54{
+    background-color: #C9C3AB;
+    clip-path: polygon(50.1% 84.9%, 55.6% 84.2%, 50.1% 80.95%);
+    animation: p54 4s forwards 7.5s;
+    top: 100%;
+    left: 145%;
+}
+@keyframes p54{
+    to{
+        left: 0%;
+        top: 0;
+    }
+    from{
+        top: 100%;
+        left: 145%;
+    }
+}
+.para-55{
+    background-color: #D2CFBC;
+    clip-path: polygon(57.6% 76.8%, 55.6% 84.2%, 50.1% 80.95%);
+    animation: p55 4s forwards 7.6s;
+    top: 100%;
+    left: 150%;
+}
+@keyframes p55{
+    to{
+        left: 0%;
+        top: 0;
+    }
+    from{
+        top: 100%;
+        left: 150%;
+    }
+}
+.para-56{
+    background-color: #C9C3AB;
+    clip-path: polygon(57.6% 76.8%, 55.6% 84.2%, 63.2% 81%);
+    animation: p56 4s forwards 7.7s;
+    top: 100%;
+    left: 155%;
+}
+@keyframes p56{
+    to{
+        left: 0%;
+        top: 0;
+    }
+    from{
+        top: 100%;
+        left: 155%;
+    }
+}
+.para-57{
+    background-color: #DEDCCF;
+    clip-path: polygon(57.6% 76.8%, 66.9% 76.2%, 63.2% 81%);
+    animation: p57 4s forwards 7.8s;
+    top: 100%;
+    left: 160%;
+}
+@keyframes p57{
+    to{
+        left: 0%;
+        top: 0;
+    }
+    from{
+        top: 100%;
+        left: 160%;
+    }
+}
+.para-58{
+    background-color: #D6D3CC;
+    clip-path: polygon(57.6% 76.8%, 66.9% 76.2%, 57.6% 73.8%);
+    animation: p58 4s forwards 7.9s;
+    top: 100%;
+    left: 165%;
+}
+@keyframes p58{
+    to{
+        left: 0%;
+        top: 0;
+    }
+    from{
+        top: 100%;
+        left: 165%;
+    }
+}
+.para-59{
+    background-color: #E7DFD4;
+    clip-path: polygon(65.6% 65.8%, 66.9% 76.2%, 57.6% 73.8%);
+    animation: p59 4s forwards 8s;
+    top: 100%;
+    left: 170%;
+}
+@keyframes p59{
+    to{
+        left: 0%;
+        top: 0;
+    }
+    from{
+        top: 100%;
+        left: 170%;
+    }
+}
+.para-60{
+    background-color: #D7D0C0;
+    clip-path: polygon(65.6% 65.8%, 66.9% 76.2%, 73.8% 73.7%);
+    animation: p60 4s forwards 8.1s;
+    top: 100%;
+    left: 175%;
+}
+@keyframes p60{
+    to{
+        left: 0%;
+        top: 0;
+    }
+    from{
+        top: 100%;
+        left: 175%;
+    }
+}
+.para-61{
+    background-color: #EBE2DD;
+    clip-path: polygon(65.6% 65.8%, 70.1% 65.8%, 73.8% 73.7%);
+    animation: p61 4s forwards 8.2s;
+    top: 100%;
+    left: 180%;
+}
+@keyframes p61{
+    to{
+        left: 0%;
+        top: 0;
+    }
+    from{
+        top: 100%;
+        left: 180%;
+    }
+}
+.para-62{
+    background-color: #DDD9CD;
+    clip-path: polygon(82.6% 67.5%, 70.1% 65.8%, 73.8% 73.7%);
+    animation: p62 4s forwards 8.3s;
+    top: 100%;
+    left: 185%;
+}
+@keyframes p62{
+    to{
+        left: 0%;
+        top: 0;
+    }
+    from{
+        top: 100%;
+        left: 185%;
+    }
+}
+.para-63{
+    background-color: #EBE2DD;
+    clip-path: polygon(82.6% 67.5%, 70.1% 65.8%, 72.4% 61.3%);
+    animation: p63 4s forwards 8.5s;
+    top: 100%;
+    left: 190%;
+}
+@keyframes p63{
+    to{
+        left: 0%;
+        top: 0;
+    }
+    from{
+        top: 100%;
+        left: 190%;
+    }
+}
+.para-64{
+    background-color: #DDD9CD;
+    clip-path: polygon(82.6% 67.5%, 89.7% 55.5%, 72.4% 61.3%);
+    animation: p64 4s forwards 8.6s;
+    top: 100%;
+    left: 195%;
+}
+@keyframes p64{
+    to{
+        left: 0%;
+        top: 0;
+    }
+    from{
+        top: 100%;
+        left: 195%;
+    }
+}
+.para-65{
+    background-color: #F0EDE6;
+    clip-path: polygon(76.5% 48.1%, 89.7% 55.5%, 72.4% 61.3%);
+    animation: p65 4s forwards 8.7s;
+    top: 100%;
+    left: 200%;
+}
+@keyframes p65{
+    to{
+        left: 0%;
+        top: 0;
+    }
+    from{
+        top: 100%;
+        left: 200%;
+    }
+}
+.para-66{
+    background-color: #DAD6CB;
+    clip-path: polygon(76.5% 48.1%, 89.7% 55.5%, 89.7% 43.0%);
+    animation: p66 4s forwards 8.8s;
+    top: 60%;
+    left: 202%;
+}
+@keyframes p66{
+    to{
+        left: 0%;
+        top: 0;
+    }
+    from{
+        top: 60%;
+        left: 202%;
+    }
+}
+.para-67{
+    background-color: #EDEBDF;
+    clip-path: polygon(76.5% 48.1%, 74.8% 40.4%, 89.7% 43.0%);
+    animation: p67 4s forwards 8.9s;
+    top: 55%;
+    left: 202%;
+}
+@keyframes p67{
+    to{
+        left: 0%;
+        top: 0;
+    }
+    from{
+        top: 55%;
+        left:202%;
+    }
+}
+.para-68{
+    background-color: #E4E0D4;
+    clip-path: polygon(83.8% 34.8%, 74.8% 40.4%, 89.7% 43.0%);
+    animation: p68 4s forwards 9s;
+    top: 50%;
+    left: 202%;
+}
+@keyframes p68{
+    to{
+        left: 0%;
+        top: 0;
+    }
+    from{
+        top: 50%;
+        left: 202%;
+    }
+}
+.para-69{
+    background-color: #F1EDEC;
+    clip-path: polygon(83.8% 34.8%, 74.8% 40.4%, 70.3% 29.9%);
+    animation: p69 4s forwards 9.1s;
+    top: 45%;
+    left: 202%;
+}
+@keyframes p69{
+    to{
+        left: 0%;
+        top: 0;
+    }
+    from{
+        top: 45%;
+        left: 202%;
+    }
+}
+.para-70{
+    background-color: #EDEBDF;
+    clip-path: polygon(64.4% 40.4%, 74.8% 40.4%, 70.25% 29.7%);
+    animation: p70 4s forwards 9.2s;
+    top: 40%;
+    left: 202%;
+}
+@keyframes p70{
+    to{
+        left: 0%;
+        top: 0;
+    }
+    from{
+        top: 40%;
+        left: 202%;
+    }
+}
+.para-71{
+    background-color: #FBF7F6;
+    clip-path: polygon(64.4% 40.4%, 74.8% 40.4%, 66.2% 49.2%);
+    animation: p71 4s forwards 9.3s;
+    top: 35%;
+    left: 202%;
+}
+@keyframes p71{
+    to{
+        left: 0%;
+        top: 0;
+    }
+    from{
+        top: 35%;
+        left: 202%;
+    }
+}
+.para-72{
+    background-color: #EBE2DD;
+    clip-path: polygon(76.5% 48.1%, 74.8% 40.4%, 66.2% 49.2%);
+    animation: p72 4s forwards 9.4s;
+    top: 20%;
+    left: 202%;
+}
+@keyframes p72{
+    to{
+        left: 0%;
+        top: 0;
+    }
+    from{
+        top: 20%;
+        left: 202%;
+    }
+}
+.para-73{
+    background-color: #F1EEE9;
+    clip-path: polygon(76.5% 48.1%, 67.2% 53.5%, 66.2% 49.2%);
+    animation: p73 4s forwards 9.5s;
+    top: 10%;
+    left: 202%;
+}
+@keyframes p73{
+    to{
+        left: 0%;
+        top: 0;
+    }
+    from{
+        top: 10%;
+        left: 202%;
+    }
+}
+.para-74{
+    background-color: #EAE5DF;
+    clip-path: polygon(76.5% 48.1%, 67.2% 53.5%, 70.1% 55.6%);
+    animation: p74 4s forwards 9.6s;
+    top: -45%;
+    left: 112%;
+}
+@keyframes p74{
+    to{
+        left: 0%;
+        top: 0;
+    }
+    from{
+        top: -45%;
+        left: 112%;
+    }
+}
+.para-75{
+    background-color: #E7DED9;
+    clip-path: polygon(76.5% 48.1%, 72.4% 61.3%, 70.1% 55.6%);
+    animation: p75 4s forwards 9.7s;
+    top: -35%;
+    left: 112%;
+}
+@keyframes p75{
+    to{
+        left: 0%;
+        top: 0;
+    }
+    from{
+        top: -35%;
+        left: 112%;
+    }
+}
+.para-76{
+    background-color: #312D2C;
+    clip-path: polygon(63.4% 56.2%, 72.4% 61.3%, 70.1% 55.6%);
+    animation: p76 4s forwards 9.7s;
+    top: 100%;
+}
+@keyframes p76{
+    to{
+        left: 0%;
+        top: 0;
+    }
+    from{
+        top: 100%;
+    }
+}
+.para-77{
+    background-color: #353130;
+    clip-path: polygon(63.4% 56.2%, 72.4% 61.3%, 70.1% 65.8%);
+    animation: p77 4s forwards 9.9s;
+    top: 100%;
+}
+@keyframes p77{
+    to{
+        left: 0%;
+        top: 0;
+    }
+    from{
+        top: 100%;
+    }
+}
+.para-78{
+    background-color: #312D2C;
+    clip-path: polygon(63.4% 56.2%, 65.7% 65.7%, 70.1% 65.8%);
+    animation: p78 4s forwards 2.2s;
+    top: 100%;
+}
+@keyframes p78{
+    to{
+        left: 0%;
+        top: 0;
+    }
+    from{
+        top: 100%;
+    }
+}
+.para-79{
+    background-color: #2E2E2E;
+    clip-path: polygon(63.4% 56.2%, 65.7% 65.7%, 61.0% 61.0%);
+    animation: p79 4s forwards 2.3s;
+    top: -90%;
+    left: -116%;
+}
+@keyframes p79 {
+    to{
+        left: 0%;
+        top: 0;
+    }
+    from{
+        top: -90%;
+        left: -116%;
+    }
+}
+.para-80{
+    background-color: #DDD9CD;
+    clip-path: polygon(57.5% 66.4%, 65.7% 65.7%, 61.0% 61.0%);
+    animation: p80 4s forwards 2.4s;
+    top: -90%;
+    left: -100%;
+}
+@keyframes p80 {
+    to{
+        left: 0%;
+        top: 0;
+    }
+    from{
+        top: -90%;
+        left: -100%;
+    }
+}
+.para-81{
+    background-color: #F8F5F0;
+    clip-path: polygon(57.5% 66.4%, 65.7% 65.7%, 57.6% 73.7%);
+    animation: p81 4s forwards 2.5s;
+    top: -90%;
+    left: -95%;
+}
+@keyframes p81 {
+    to{
+        left: 0%;
+        top: 0;
+    }
+    from{
+        top: -90%;
+        left: -95%;
+    }
+}
+.para-82{
+    background-color: #E7DFD4;
+    clip-path: polygon(57.5% 66.4%, 57.3% 57.2%, 61.0% 61.0%);
+    animation: p82 4s forwards 2.7s;
+    top: -90%;
+    left: -80%;
+}
+@keyframes p82 {
+    to{
+        left: 0%;
+        top: 0;
+    }
+    from{
+        top: -90%;
+        left: -80%;
+    }
+}
+.para-83{
+    background-color: #2E2E2E;
+    clip-path: polygon(59.5% 56.5%, 57.3% 57.2%, 61.0% 61.0%);
+    animation: p83 4s forwards 2.8s;
+    top: -90%;
+    left: -75%;
+}
+@keyframes p83 {
+    to{
+        left: 0%;
+        top: 0;
+    }
+    from{
+        top: -90%;
+        left: -75%;
+    }
+}
+.para-84{
+    background-color: #332F30;
+    clip-path: polygon(59.5% 56.5%, 63.4% 56.2%, 61.0% 61.0%);
+    animation: p84 4s forwards 2.9s;
+    top: -90%;
+    left: -70%;
+}
+@keyframes p84 {
+    to{
+        left: 0%;
+        top: 0;
+    }
+    from{
+        top: -90%;
+        left: -70%;
+    }
+}
+.para-85{
+    background-color: #000000;
+    clip-path: polygon(59.5% 56.5%, 63.4% 56.2%, 64.5% 53.5%);
+    animation: p85 4s forwards 3s;
+    top: -90%;
+    left: -65%;
+}
+@keyframes p85 {
+    to{
+        left: 0%;
+        top: 0;
+    }
+    from{
+        top: -90%;
+        left: -65%;
+    }
+}
+.para-86{
+    background-color: #000000;
+    clip-path: polygon(59.5% 56.5%, 61.0% 53.8%, 64.5% 53.5%);
+    animation: p86 4s forwards 3.2s;
+    top: -90%;
+    left: -60%;
+}
+@keyframes p86 {
+    to{
+        left: 0%;
+        top: 0;
+    }
+    from{
+        top: -90%;
+        left: -60%;
+    }
+}
+.para-87{
+    background-color: #000000;
+    clip-path: polygon(57.6% 76.8%, 50.1% 74.3%, 50.1% 80.95%);
+    animation: p87 4s forwards 3.5s;
+    top: -90%;
+    left: -50%;
+}
+@keyframes p87 {
+    to{
+        left: 0%;
+        top: 0;
+    }
+    from{
+        top: -90%;
+        left: -50%;
+    }
+}
+.para-88{
+    background-color: #444444;
+    clip-path: polygon(57.6% 76.8%, 50.1% 74.3%, 57.6% 73.7%);
+    animation: p88 4s forwards 3.7s;
+    top: -90%;
+    left: -40%;
+}
+@keyframes p88 {
+    to{
+        left: 0%;
+        top: 0;
+    }
+    from{
+        top: -90%;
+        left: -40%;
+    }
+}
+.para-89{
+    background-color: #FBF7F6;
+    clip-path: polygon(50.1% 61.1%, 50.1% 74.3%, 57.6% 73.7%);
+    animation: p89 4s forwards 3.9s;
+    top: -90%;
+    left: -30%;
+}
+@keyframes p89 {
+    to{
+        left: 0%;
+        top: 0;
+    }
+    from{
+        top: -90%;
+        left: -30%;
+    }
+}
+.para-90{
+    background-color: #E8E0D5;
+    clip-path: polygon(50.1% 61.1%, 57.3% 57.3%, 57.6% 73.7%);
+    animation: p90 4s forwards 4s;
+    top: -90%;
+    left: -20%;
+}
+@keyframes p90 {
+    to{
+        left: 0%;
+        top: 0;
+    }
+    from{
+        top: -90%;
+        left: -20%;
+    }
+}
+.para-91{
+    background-color: #EDEBDF;
+    clip-path: polygon(50.1% 61.1%, 57.3% 57.3%, 50.0% 52.2%);
+    animation: p91 4s forwards 4.2s;
+    top: -90%;
+    left: -10%;
+}
+@keyframes p91 {
+    to{
+        left: 0%;
+        top: 0;
+    }
+    from{
+        top: -90%;
+        left: -10%;
+    }
+}
+.para-92{
+    background-color: #E7DFD4;
+    clip-path: polygon(56.1% 52.1%, 57.3% 57.3%, 50.0% 52.2%);
+    animation: p92 4s forwards 4.4s;
+    top: -90%;
+    left: 0%;
+}
+@keyframes p92 {
+    to{
+        left: 0%;
+        top: 0;
+    }
+    from{
+        top: -90%;
+        left: 0%;
+    }
+}
+.para-93{
+    background-color: #231F20;
+    clip-path: polygon(56.1% 52.1%, 57.3% 57.3%, 59.5% 56.5%);
+    animation: p93 4s forwards 13s;
+    opacity: 0;
+}
+@keyframes p93 {
+    to{
+        opacity: 1;
+    }
+    from{
+        opacity: 0;
+    }
+}
+.para-94{
+    background-color: #2E2E2E;
+    clip-path: polygon(56.1% 52.1%, 61.0% 53.8%, 59.5% 56.5%);
+    animation: p94 4s forwards 13.3s;
+    opacity: 0;
+}
+@keyframes p94 {
+    to{
+        opacity: 1;
+    }
+    from{
+        opacity: 0;
+    }
+}
+.para-95{
+    background-color: #36332E;
+    clip-path: polygon(56.1% 52.1%, 61.0% 53.8%, 59.8% 47.4%);
+    animation: p95 4s forwards 13.5s;
+    opacity: 0;
+}
+@keyframes p95 {
+    to{
+        opacity: 1;
+    }
+    from{
+        opacity: 0;
+    }
+}
+.para-96{
+    background-color: #FBF7F6;
+    clip-path: polygon(56.1% 52.1%, 56.0% 44.0%, 59.8% 47.4%);
+    animation: p96 4s forwards 13.7s;
+    opacity: 0;
+}
+@keyframes p96 {
+    to{
+        opacity: 1;
+    }
+    from{
+        opacity: 0;
+    }
+}
+.para-97{
+    background-color: #EDEBDF;
+    clip-path: polygon(56.1% 52.1%, 56.0% 44.0%, 50.0% 52.2%);
+    animation: p97 4s forwards 13.7s;
+    top: -90%;
+    left: 0%;
+}
+@keyframes p97 {
+    to{
+        left: 0%;
+        top: 0;
+    }
+    from{
+        top: -90%;
+        left: 0%;
+    }
+}
+.para-98{
+    background-color: #FBF7F6;
+    clip-path: polygon(50.1% 36.9%, 56.00% 44.0%, 50.0% 52.2%);
+    animation: p98 4s forwards 13.8s;
+    top: -100%;
+    left: -100%;
+}
+@keyframes p98 {
+    to{
+        left: 0%;
+        top: 0;
+    }
+    from{
+        top: -90%;
+        left: -100%;
+    }
+}
+.para-99{
+    background-color: #FBF7F6;
+    clip-path: polygon(50.1% 37.0%, 44.1% 44.0%, 50.0% 52.2%);
+    animation: p99 4s forwards 13.9s;
+    top: -100%;
+    left: -80%;
+}
+@keyframes p99 {
+    to{
+        left: 0%;
+        top: 0;
+    }
+    from{
+        top: -90%;
+        left: -80%;
+    }
+}
+.para-100{
+    background-color: #EDEBDF;
+    clip-path: polygon(44.1% 52.2%, 44.1% 44.0%, 50.0% 52.2%);
+    animation: p100 4s forwards 14s;
+    top: -100%;
+    left: -70%;
+}
+@keyframes p100 {
+    to{
+        left: 0%;
+        top: 0;
+    }
+    from{
+        top: -90%;
+        left: -70%;
+    }
+}
+.para-101{
+    background-color: #E7DFD4;
+    clip-path: polygon(44.1% 52.2%, 42.7% 57.4%, 50.0% 52.2%);
+    animation: p101 4s forwards 14.2s;
+    top: -100%;
+    left: -60%;
+}
+@keyframes p101 {
+    to{
+        left: 0%;
+        top: 0;
+    }
+    from{
+        top: -90%;
+        left: -60%;
+    }
+}
+.para-102{
+    background-color: #EDEBDF;
+    clip-path: polygon(50.1% 61.2%, 42.7% 57.4%, 50.0% 52.2%);
+    animation: p102 4s forwards 14.4s;
+    top: -100%;
+    left: -50%;
+}
+@keyframes p102 {
+    to{
+        left: 0%;
+        top: 0;
+    }
+    from{
+        top: -90%;
+        left: -50%;
+    }
+}
+.para-103{
+    background-color: #E7DFD4;
+    clip-path: polygon(50.1% 61.2%, 42.7% 57.4%, 42.6% 73.8%);
+    animation: p103 4s forwards 1s;
+    top: -100%;
+    left: -40%;
+}
+@keyframes p103 {
+    to{
+        left: 0%;
+        top: 0;
+    }
+    from{
+        top: -90%;
+        left: -40%;
+    }
+}
+.para-104{
+    background-color: #FBF7F6;
+    clip-path: polygon(50.1% 61.2%, 50.1% 74.2%, 42.6% 73.8%);
+    animation: p104 4s forwards 11.7s;
+    top: -100%;
+    left: -30%;
+}
+@keyframes p104 {
+    to{
+        left: 0%;
+        top: 0;
+    }
+    from{
+        top: -90%;
+        left: -30%;
+    }
+}
+.para-105{
+    background-color: #444444;
+    clip-path: polygon(42.7% 76.7%, 50.7% 74.3%, 42.6% 73.8%);
+    animation: p105 4s forwards 10s;
+    top: -100%;
+    left: -20%;
+}
+@keyframes p105 {
+    to{
+        left: 0%;
+        top: 0;
+    }
+    from{
+        top: -90%;
+        left: -20%;
+    }
+}
+.para-106{
+    background-color: #000;
+    clip-path: polygon(42.7% 76.7%, 50.3% 74.4%, 50.1% 80.9%);
+    animation: p106 4s forwards 13s;
+    top: -100%;
+    left: -10%;
+}
+@keyframes p106 {
+    to{
+        left: 0%;
+        top: 0;
+    }
+    from{
+        top: -90%;
+        left: -10%;
+    }
+}
+.para-107 {
+    background-color: #F1EEE9;
+    clip-path: polygon(64.4% 40.4%, 56.0% 44.0%, 59.8% 47.4%);
+    animation: p107 4s forwards 10s;
+    top: 100%;
+    left: 10%;
+}
+@keyframes p107 {
+    to{
+        left: 0%;
+        top: 0;
+    }
+    from{
+        top: 100%;
+        left: 10%;
+    }
+}
+.para-108 {
+    background-color: #F4F1EA;
+    clip-path: polygon(64.4% 40.4%, 66.2% 49.2%, 59.8% 47.4%);
+    animation: p108 4s forwards 10.5s;
+    top: 100%;
+    left: 30%;
+}
+@keyframes p108 {
+    to{
+        left: 0%;
+        top: 0;
+    }
+    from{
+        top: 100%;
+        left: 30%;
+    }
+}
+.para-109 {
+    background-color: #2E2E2E;
+    clip-path: polygon(61.0% 53.75%, 66.2% 49.2%, 59.8% 47.4%);
+    animation: p109 4s forwards 10.9s;
+    top: 100%;
+    left: 40%;
+}
+@keyframes p109 {
+    to{
+        left: 0%;
+        top: 0;
+    }
+    from{
+        top: 100%;
+        left: 40%;
+    }
+}
+.para-110 {
+    background-color: #2E2E2E;
+    clip-path: polygon(61.0% 53.75%, 66.2% 49.2%, 64.5% 53.5%);
+    animation: p110 4s forwards 9s;
+    top: 100%;
+    left: 30%;
+}
+@keyframes p110 {
+    to{
+        left: 0%;
+        top: 0;
+    }
+    from{
+        top: 100%;
+        left: 30%;
+    }
+}
+.para-111 {
+    background-color: #262223;
+    clip-path: polygon(64.4% 53.7%, 67.2% 53.5%, 66.2% 49.2%);
+    animation: p111 4s forwards 3s;
+    top: 100%;
+    left: 20%;
+}
+@keyframes p111 {
+    to{
+        left: 0%;
+        top: 0;
+    }
+    from{
+        top: 100%;
+        left: 20%;
+    }
+}
+.para-112 {
+    background-color: #2E2E2E;
+    clip-path: polygon(64.4% 53.7%, 67.2% 53.5%, 63.4% 56.3%);
+    animation: p112 4s forwards 7s;
+    top: 100%;
+    left: 10%;
+}
+@keyframes p112 {
+    to{
+        left: 0%;
+        top: 0;
+    }
+    from{
+        top: 100%;
+        left: 10%;
+    }
+}
+.para-113 {
+    background-color: #272322;
+    clip-path: polygon(63.4% 56.3%, 67.2% 53.5%, 70.1% 55.6%);
+    animation: p113 4s forwards 2s;
+    top: 100%;
+    left: 10%;
+}
+@keyframes p113 {
+    to{
+        left: 0%;
+        top: 0;
+    }
+    from{
+        top: 100%;
+        left: 10%;
+    }
+}
+.para-114 {
+    background-color: #FBF7F6;
+    clip-path: polygon(44.1% 52.2%, 44.1% 44.0%, 40.3% 47.3%);
+    animation: p114 4s forwards 12s;
+    top: 100%;
+    left: 100%;
+}
+@keyframes p114 {
+    to{
+        left: 0%;
+        top: 0;
+    }
+    from{
+        top: 100%;
+        left: 100%;
+    }
+}
+.para-115 {
+    background-color: #F5F2EB;
+    clip-path: polygon(35.7% 40.4%, 44.1% 44.0%, 40.3% 47.3%);
+    animation: p115 4s forwards 12s;
+    top: 100%;
+    left: 200%;
+}
+@keyframes p115 {
+    to{
+        left: 0%;
+        top: 0;
+    }
+    from{
+        top: 100%;
+        left: 200%;
+    }
+}
+.para-116 {
+    background-color: #F3F0E9;
+    clip-path: polygon(35.7% 40.4%, 33.9% 49.2%, 40.3% 47.3%);
+    animation: p116 4s forwards 12s;
+    top: 100%;
+    left: -200%;
+}
+@keyframes p116 {
+    to{
+        left: 0%;
+        top: 0;
+    }
+    from{
+        top: 100%;
+        left: -200%;
+    }
+}
+.para-117 {
+    background-color: #FBF7F6;
+    clip-path: polygon(35.7% 40.4%, 33.9% 49.2%, 25.3% 40.3%);
+    animation: p117 4s forwards 12s;
+    top: 100%;
+    left: -100%;
+}
+@keyframes p117 {
+    to{
+        left: 0%;
+        top: 0;
+    }
+    from{
+        top: 100%;
+        left: -100%;
+    }
+}
+.para-118 {
+    background-color: #EBE2DD;
+    clip-path: polygon(23.8% 48.1%, 33.9% 49.2%, 25.3% 40.3%);
+    animation: p118 4s forwards 13s;
+    top: 100%;
+    left: -100%;
+}
+@keyframes p118 {
+    to{
+        left: 0%;
+        top: 0;
+    }
+    from{
+        top: 100%;
+        left: -100%;
+    }
+}
+.para-119 {
+    background-color: #F1EEE9;
+    clip-path: polygon(23.8% 48.1%, 33.9% 49.2%, 33.0% 53.4%);
+    animation: p119 4s forwards 15s;
+    top: -100%;
+    left: 100%;
+}
+@keyframes p119 {
+    to{
+        left: 0%;
+        top: 0;
+    }
+    from{
+        top: -100%;
+        left: 100%;
+    }
+}
+.para-120 {
+    background-color: #EAE5DF;
+    clip-path: polygon(23.8% 48.1%, 30.0% 55.4%, 33.0% 53.4%);
+    animation: p120 4s forwards 15s;
+    top: -100%;
+    left: -100%;
+}
+@keyframes p120 {
+    to{
+        left: 0%;
+        top: 0;
+    }
+    from{
+        top: -100%;
+        left: -100%;
+    }
+}
+.para-121 {
+    background-color: #E7DED9;
+    clip-path: polygon(23.8% 48.1%, 30.0% 55.4%, 27.7% 61.2%);
+    animation: p121 4s forwards 16s;
+    top: 100%;
+    left: 100%;
+}
+@keyframes p121 {
+    to{
+        left: 0%;
+        top: 0;
+    }
+    from{
+        top: 100%;
+        left: 100%;
+    }
+}
+.para-122 {
+    background-color: #312D2C;
+    clip-path: polygon(36.7% 56.1%, 30.0% 55.4%, 27.7% 61.2%);
+    animation: p122 4s forwards 16s;
+    top: 100%;
+}
+@keyframes p122 {
+    to{
+        left: 0%;
+        top: 0;
+    }
+    from{
+        top: 100%;
+    }
+}
+.para-123 {
+    background-color: #353130;
+    clip-path: polygon(36.7% 56.1%, 30.0% 65.8%, 27.7% 61.2%);
+    animation: p123 4s forwards 17s;
+    top: -100%;
+}
+@keyframes p123 {
+    to{
+        left: 0%;
+        top: 0;
+    }
+    from{
+        top: -100%;
+    }
+}
+.para-124 {
+    background-color: #312D2C;
+    clip-path: polygon(36.7% 56.1%, 30.0% 65.8%, 34.4% 65.8%);
+    animation: p124 4s forwards 17s;
+    top: 100%;
+}
+@keyframes p124 {
+    to{
+        left: 0%;
+        top: 0;
+    }
+    from{
+        top: 100%;
+    }
+}
+.para-125 {
+    background-color: #2E2E2E;
+    clip-path: polygon(36.7% 56.1%, 39.1% 61%, 34.4% 65.8%);
+    animation: p125 4s forwards 17s;
+    left: 200%;
+}
+@keyframes p125 {
+    to{
+        left: 0%;
+        top: 0;
+    }
+    from{
+        left: 200%;
+    }
+}
+.para-126{
+    background-color: #F8F5F0;
+    clip-path: polygon(34.5% 65.8%, 42.65% 66.3%, 42.6% 73.8%);
+    animation: p126 4s forwards 17.4s;
+    left: 200%;
+}
+@keyframes p126 {
+    to{
+        left: 0%;
+        top: 0;
+    }
+    from{
+        left: 200%;
+    }
+}
+.para-127{
+    background-color: #DDD9CD;
+    clip-path: polygon(34.4% 65.8%, 42.65% 66.3%, 39.1% 61.0%);
+    animation: p127 4s forwards 18s;
+    right: 200%;
+}
+@keyframes p127 {
+    to{
+        right: 0%;
+    }
+    from{
+        right: 200%;
+    }
+}
+.para-128{
+    background-color: #E7DFD4;
+    clip-path: polygon(42.65% 57.4%, 42.65% 66.3%, 39.1% 61.0%);
+    animation: p128 8s forwards 2s;
+    right: 200%;
+}
+@keyframes p128 {
+    to{
+        right: 0%;
+        top: 0;
+    }
+    from{
+        right: 200%;
+    }
+}
+.para-129{
+    background-color: #2E2E2E;
+    clip-path: polygon(42.65% 57.4%, 40.7% 56.5%, 39.1% 61.0%);
+    animation: p129 4s forwards 17.9s;
+    right: -200%;
+}
+@keyframes p129 {
+    to{
+        right: 0%;
+        top: 0;
+    }
+    from{
+        right: -200%;
+    }
+}
+.para-130{
+    background-color: #332F30;
+    clip-path: polygon(36.7% 56.1%, 40.7% 56.5%, 39.1% 61.0%);
+    animation: p130 4s forwards 18.9s;
+    right: -200%;
+    top: -100%;
+}
+@keyframes p130 {
+    to{
+        right: 0%;
+        top: 0;
+    }
+    from{
+        right: -200%;
+        top: -100%;
+    }
+}
+.para-131{
+    background-color: #000;
+    clip-path: polygon(36.6% 56.1%, 40.6% 56.5%, 35.7% 53.3%);
+    animation: p131 4s forwards 18.2s;
+    right: -200%;
+    top:  100%;
+}
+@keyframes p131 {
+    to{
+        right: 0%;
+        top: 0;
+    }
+    from{
+        right: -200%;
+        top: 100%;
+    }
+}
+.para-132{
+    background-color: #2E2E2E;
+    clip-path: polygon(44.1% 52.2%, 40.7% 56.5%, 39.3% 53.9%);
+    animation: p132 4s forwards 18.3s;
+    right: 200%;
+    top:  -100%;
+}
+@keyframes p132 {
+    to{
+        right: 0%;
+        top: 0;
+    }
+    from{
+        right: 200%;
+        top: -100%;
+    }
+}
+.para-133{
+    background-color: #231F20;
+    clip-path: polygon(44.1% 52.2%, 40.7% 56.5%, 42.7% 57.4%);
+    animation: p133 4s forwards 18.4s;
+    right: 200%;
+    top:  100%;
+}
+@keyframes p133 {
+    to{
+        right: 0%;
+        top: 0;
+    }
+    from{
+        right: 200%;
+        top: 100%;
+    }
+}
+.para-134{
+    background-color: #36332E;
+    clip-path: polygon(44.1% 52.2%, 40.3% 47.3%, 39.3% 53.9%);
+    animation: p134 4s forwards 18.5s;
+    right: 200%;
+    top:  100%;
+}
+@keyframes p134 {
+    to{
+        right: 0%;
+        top: 0;
+    }
+    from{
+        right: 200%;
+        top: 100%;
+    }
+}
+.para-135{
+    background-color: #2E2E2E;
+    clip-path: polygon(33.9% 49.2%, 40.3% 47.3%, 39.3% 53.9%);
+    animation: p135 4s forwards 18.5s;
+    left: 200%;
+    bottom:  100%;
+}
+@keyframes p135 {
+    to{
+        left: 0%;
+        bottom: 0;
+    }
+    from{
+        left: 200%;
+        bottom:  100%;
+    }
+}
+.para-136{
+    background-color: #2E2E2E;
+    clip-path: polygon(33.9% 49.2%, 35.8% 53.4%, 39.3% 53.9%);
+    animation: p136 4s forwards 18.6s;
+    left: 200%;
+    bottom:  -100%;
+}
+@keyframes p136 {
+    to{
+        left: 0%;
+        bottom: 0;
+    }
+    from{
+        left: 200%;
+        bottom:  -100%;
+    }
+}
+.para-137{
+    background-color: #000;
+    clip-path: polygon(40.7% 56.55%, 35.8% 53.4%, 39.3% 53.9%);
+    animation: p137 4s forwards 18.7s;
+    left: -200%;
+    bottom:  100%;
+}
+@keyframes p137 {
+    to{
+        left: 0%;
+        bottom: 0;
+    }
+    from{
+        left: -200%;
+        bottom:  100%;
+    }
+}
+.para-138{
+    background-color: #262223;
+    clip-path: polygon(33.9% 49.2%, 35.8% 53.4%, 33.0% 53.45%);
+    animation: p138 4s forwards 18.8s;
+    left: -200%;
+    bottom:  -100%;
+}
+@keyframes p138 {
+    to{
+        left: 0%;
+        bottom: 0;
+    }
+    from{
+        left: -200%;
+        bottom:  -100%;
+    }
+}
+.para-139{
+    background-color: #2E2E2E;
+    clip-path: polygon(36.6% 56.1%, 35.8% 53.4%, 33.0% 53.45%);
+    animation: p139 4s forwards 19s;
+    left: 200%;
+    bottom:  100%;
+}
+@keyframes p139 {
+    to{
+        left: 0%;
+        bottom: 0;
+    }
+    from{
+        left: 200%;
+        bottom:  100%;
+    }
+}
+.para-140{
+    background-color: #262221;
+    clip-path: polygon(36.6% 56.1%, 30.0% 55.4%, 33.0% 53.45%);
+    animation: p140 4s forwards 20s;
+    top: -100%;
+}
+@keyframes p140 {
+    to{
+        left: 0%;
+        bottom: 0;
+        top: 0%;
+    }
+    from{
+        top: -100%;
+    }
+}

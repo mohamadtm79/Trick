@@ -1,0 +1,1179 @@
+
+body,html{
+    background-color: white;
+    font-family: 'Lato', sans-serif;
+
+
+}
+*{
+    padding: 0%;
+    margin: 0%;
+    border: 0;
+    outline: 0;
+}
+a{
+    text-decoration: none;
+}
+
+.KING{
+    width: 100%;
+    height: 45px;
+    background-color: rgb(255, 255, 255);
+}
+.Apple{
+    width: 100%;
+    height: 45px;
+    background-color: #000000;
+}
+.Up .ul li .Tv-plas{
+    color: #736d6d;
+
+}
+.Up{ 
+    width: 79.6%;
+    margin: 0 auto;
+   
+}
+.ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    height: 45px;
+    line-height: 45px;
+}
+.li{
+    margin: 0 24px;
+    text-align: center;
+    font-size: 14px;
+    font-family: "iPhone";
+    width: 50.5px; 
+}
+
+.Up .ul li a{
+    height: 45px;
+    display: block;
+    color: #aeaeae;
+    text-decoration: none;
+}
+
+#Apple-logo{
+    height: 45px;
+    display: block;
+    line-height: 45px;
+    font-size: 20px;
+    color: #dbd7d7;
+}
+#saersh{
+    height: 45px;
+    display: block;
+    line-height: 45px;
+    font-size: 17px;
+    color: #aeaeae;
+}
+
+.Up ul li a:hover{
+    color: #dfdfdf;
+    transition: .7s;
+}
+#Apple-logo:hover ,#saersh:hover , #shopping:hover{
+    color: #ffffff;
+    transition: .7s;
+}
+#shopping{
+    text-align: left;
+    height: 45px;
+    display: block;
+    line-height: 42px;
+    font-size: 20px;
+    color: #aeaeae;
+}
+.header-Down{
+    width: 100%;
+    height: 121px;
+    background: #0e0e0e;
+}
+.header-image-Logo{
+    width: 43%;
+    height: 121px;
+    margin: 0 auto;
+}
+.header-image-Logo ul{
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    list-style: none;
+}
+.header-image-Logo ul li a{
+    display: block; 
+}
+.KING-div{
+    width: 100%;
+    padding: 12px 0;
+}
+.li1{
+
+    width: 55px;
+}
+.li1 a img{
+    width: 48px;
+    margin: 0 4px;
+}
+.Tv{
+    color: aliceblue;
+    
+    font-size: 13px;
+    text-align: center;
+}
+.li2{
+    width: 74px;
+}
+.li2 a img{
+    width: 33px;
+    margin: 0 20.2px;
+}
+.Apple-Tv{
+    color: aliceblue;
+    
+    font-size: 13px;
+    text-align: center;
+
+}
+
+.li3{
+    width: 69px;
+}
+.li3 a img{
+    width: 36px;
+    margin: 0 17px;
+}
+.Tv-Apple{
+    color: aliceblue;
+    
+    font-size: 13px;
+    text-align: center;
+
+}
+.li3 span{
+    color: #f56300;
+    margin: 37%;
+    font-size: 10px;
+      
+}
+.li4{
+    width: 71px;
+}
+.li4 a img{
+    width: 36px;
+    margin: 0 17.2px;
+}
+
+.Tv-logo{
+    color: aliceblue;
+    
+    font-size: 13px;
+    text-align: center;
+
+}
+.li5{
+    width: 39px;
+}
+.li5 a img{
+    width: 31px;
+    margin: 0px 3.7px;
+}
+.Tv-Apple-logo{
+    color: aliceblue;
+    
+    font-size: 13px;
+    text-align: center;
+
+}
+.li6{
+    width: 67px;
+}
+.li6 a img{
+    width: 50px;
+    margin: 0px 8px;
+}
+
+.tv{
+    color: aliceblue;
+    
+    font-size: 13px;
+    text-align: center;
+
+}
+.header-image-Logo ul li a:hover p{
+    color: #2575c0;
+}
+
+.header-end{
+    width: 100%;
+    height: 50px;
+    background-color: #1d1d1f;
+}
+.header-end p{
+    text-align: center;
+    line-height: 41px;
+    
+    color: white;
+    height: 100%;
+    font-size: 15px;
+}
+.header-end p a{
+    color: #2575c0;
+}
+.header-end p a:hover{
+    text-decoration: underline;
+}
+.header-end sup a{
+    color: #ffffff;
+}
+.header-end sup a:hover{
+    color: #2575c0;
+    text-decoration: none;
+}
+.header-end a i{
+    font-size: 15px;
+    vertical-align: middle;
+    margin-left: 5px;
+}
+.video{
+    width: 100%;
+    color: red;
+    height: 372px;
+    font-size: 100px;
+}
+
+.paragraph-video{
+    width: 100%;
+    position: absolute;
+}
+
+.All-paragraph{
+    width: 67%;
+    margin: 0 auto;
+    text-align: center;
+}
+.fa-apple{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+.image-pro{
+    margin-bottom: 20px;
+}
+
+
+.All-paragraph .p{
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #ffffff;
+    
+}
+.radius{
+    width: 35%;
+    height: 56px;
+    background-color: #ffffff;
+    margin: 0 auto;
+    border-radius: 50px;
+}
+.radius:hover{
+    background-color: rgba(255, 255, 255, .5);
+}
+.radius a{
+    color: black;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    
+    border-radius: 50px;
+    height: 54px;
+}
+.radius p{
+    line-height: 56px;
+    height: 56px;
+}
+.radius a i{
+    font-size: 17px;
+    line-height: 58px;
+    padding: 0 5px;
+    height: 56px;
+    color: #1d1d1f;
+}
+
+
+.diiv{
+    width: 100%;
+    height: 276px;
+    background-color: white;
+}
+
+h3{
+    font-family: 'iPhone3';
+    letter-spacing: -0.015em;
+    font-size: 14px;
+    color: #58585b;
+}
+.Ab{
+    font-size: 80px;
+}
+.ma{
+    font-size: 77px;
+}
+
+.circle{
+    width: 7%;
+    height: 57px;
+    background-color: aliceblue;
+    margin: 0 auto;
+    border-radius: 50px;
+}
+
+.circle a{
+    line-height: 54px;
+    display: block;
+    border-radius: 50px;
+}
+
+.Tv-plas .P-A{
+    padding: 0;
+}
+
+.AofTV{
+    width: 100%;
+}
+
+.Tv-plas{
+    width: 89%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.AofTV .Tv-plas .wp{
+    text-align: center;
+    padding-top: 112px;
+    color: red;
+}
+.Tv-plas img{
+    margin-top: 35px;
+    margin-bottom: 33px;
+}
+.div-Ul ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin-top: 28px;
+}
+.Li{
+    margin: 0 35px;
+    background: aliceblue;
+    width: 74px;
+    height: 47px;
+    border-radius: 50px;
+}
+
+.Li a{
+    line-height: 47px;
+    display: block;
+    background-color: #0071e3;
+    border-radius: 50px;
+    color: aliceblue;   
+}
+.Li a:hover{
+    background-color: rgba(0, 113, 227, .9);
+}
+
+
+.div-Ul li{
+    line-height: 47px;
+    font-size: 22px;
+    
+}
+.div-Ul li a i{
+    vertical-align: middle;
+    padding: 0 0 1px 7px;
+    font-size: 19px;
+}
+.lI a:hover{
+    text-decoration: underline;
+}
+.lI a{
+    color:#2575c0 ;
+}
+.P-TV{
+    position: absolute;
+    left: 30%;
+    z-index: 2;
+    margin-top: -150px;
+    font-size: 21px;
+    letter-spacing: .011em;
+    
+}
+.sup{
+    font-size: 12px;
+}
+
+.mohamad{
+    width: 3%;
+    height: 39px;
+    border-radius: 82px;
+    display: flex;
+    border: 2px solid white;
+    line-height: 51px;
+    justify-content: center;
+    margin: 0 96%;
+    transform: translate(-1px, -26px);
+}
+.class1{
+    border-right: 3px solid white;
+    height: 19px;
+    margin: 10px 3px;
+}
+.class2{
+    border-left: 3px solid white;
+    height: 19px;
+    margin: 10px 4px;
+}
+
+
+.app{
+    width: 100%;
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(50%, #c5c9cd), to(#bec3c7));
+
+}
+
+.App-class{
+    width: 64%;
+    margin: 0 auto;
+}
+.Tv-app{
+    text-align: center;
+    font-size: 24px;
+    padding-top: 150px;
+    
+    color: #1d1d1f;
+}
+.app h3{
+    text-align: center;
+    color: #1d1d1f;
+    margin-top: 30px;
+}
+.app a{
+    display: block;
+    text-align: center;
+    
+    font-size: 21px;
+    color: #0066cc;
+    width: 129px;
+    margin: 25px auto 90px;
+}
+.app a:hover{
+    text-decoration: underline;
+}
+.app a i{
+    vertical-align: middle;
+    font-size: 19px;
+    margin: 0px 10px 2px;
+}
+
+.AsLi{
+    width: 80%;
+    margin: 0 auto;
+    height: 638px;
+}
+
+.grid{
+    width: 100%;
+}
+.dublle{
+    width: 93%;
+    display: flex;
+    background-color: #f9f9f9;
+    margin: 25px auto 0;
+    height: 566px;
+}
+.Full{
+    width: 62%;
+    margin-top: 150px;
+}
+.apple-full{
+    margin-top: 188px;
+}
+.Full-img{
+    margin: 0 auto;
+    text-align: center;
+}
+.apple-imag{
+    text-align: center;
+}
+.apple-imag p{
+    font-size: 28px;
+    text-align: center;
+    
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+.apple-imag ul li a{
+    font-size: 22px;
+    
+    color: #0066cc;
+}
+.apple-imag ul .li-Link a i{
+    transform: rotateZ(-45deg);
+    font-size: 19px;
+}
+.apple-imag ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+.apple-imag img{
+    margin-bottom: 20px;
+}
+.a23{
+    margin-bottom: 20px;
+}
+.li-Link{
+    margin: 0 19px;
+}
+.link-li{
+    margin: 8px 15px;
+}
+.link-li a i{
+    vertical-align: middle;
+    font-size: 19px;
+    margin: 0px 5px 4px;
+}
+.apple-imag a:hover{
+    text-decoration: underline;
+}
+
+
+
+.Fitness{
+    width: 100%;
+    height: 710px;
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+}
+
+.left{
+    width: 46%;
+    height: 634px;
+    margin: 35px 15px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+.right{
+    width: 46%;
+    height: 634px;
+    text-align: center;
+    margin: 35px 15px;
+    background-color:#f9f9f9;
+}
+.up{
+    padding-top: 70px;
+    margin-bottom: 50px;
+}
+.up p{
+    margin-top: 20px;
+}
+.up ul{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.up p{
+    font-size: 23px;
+    
+    color: #28282a;
+}
+.up ul li .I i{
+    font-size: 16px;
+    transform: rotateZ(
+-45deg);
+}
+.up li{
+    margin: 0 15px;
+    font-size: 21px;
+    
+}
+.up li a:hover{
+    text-decoration: underline;
+}
+.up li a{
+    color: #0066cc;
+}
+.lable{
+    line-height: 1.1;
+}
+sup{
+    font-size: 12px;
+}
+.lable i{
+    vertical-align: middle;
+    font-size: 19px;
+    margin: 1px 3px 4px;
+}
+
+.L-i{
+    line-height: 47px;
+    display: block;
+    background-color: #0071e3;
+    border-radius: 50px;
+    color: aliceblue;   
+}
+
+.L-i1 a{
+    color: #d5e7fb;
+    font-family: 'iPhone3';
+    font-size: 18px;
+    display: block;
+    height: 36px;
+    border-radius: 14px;
+}
+
+.div--ul ul :hover .a{
+    text-decoration: none;
+}
+
+
+.l-I{
+    line-height: 2.3;
+    margin: 0 19px;
+}
+
+.l-I a{
+    color: #277dd3;
+    font-size: 18px;
+    
+}
+.l-I a:hover{
+    text-decoration: underline;
+
+}
+.l-I a i{
+    vertical-align: middle;
+    font-size: 19px;
+    margin: 2px 3px 4px;
+}
+
+
+.li-Link a{
+    line-height: 2;
+}
+
+
+.Gift{
+    width: 100%;
+    height: 500px;
+    background-color: white;
+}
+.Gift-Card{
+    width: 94%;
+    display: flex;
+    background-color: #f9f9f9;
+    margin: 0 auto;
+    height: 500px;
+}
+
+.paragraphgers{
+    width: 35%;
+    text-align: center;
+    background-color: #f8f8f8;
+}
+.paragraphgers img{
+    margin: 208px 0 0 0;
+}
+.images{
+    width: 67%;
+    background: #f8f8f8;
+}
+.images img{
+    margin: 90px 0;
+}
+.Gift-Card p{
+    margin-top: .8em;
+    color: #1d1d1f;
+    font-size: 20px;
+    
+}
+.div--ul ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-top: .8em;
+}
+
+.L-i1{
+    margin: 0 18px;
+    background: #0088ff;
+    width: 59px;
+    line-height: 2.2;
+    height: 39px;
+    border-radius: 50px;
+}
+
+
+
+ul{
+    list-style: none;
+}
+
+.Apple-TV{
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    background-color: white;
+}
+.Apple-TV p{
+    font-size: 56px;
+    font-weight: 700;
+    
+    padding-top: 66px;
+}
+.Apple-TV ul li a{
+    font-size: 22px;
+}
+.Apple-TV ul li a:hover{
+    text-decoration: underline;
+}
+
+.up-right{
+    padding-top: 70px;
+    margin-bottom: 20px;
+}
+.up-right p{
+    font-size: 48px;
+    font-family: 'iPhone3';
+}
+
+.up-right .p2{
+    font-size: 23px;
+    
+    color: #28282a;
+    margin-top: 20px;
+}
+.up-right li{
+    margin: 0 15px;
+    font-size: 21px;
+    width: 61px;
+    margin-top: 20px;
+    
+    height: 38px;
+    line-height: 1.7;
+    background-color: #0071e3;
+    border-radius: 50px;
+}
+.up-right ul{
+    list-style: none;
+    margin: 0 42% 0;
+}
+
+
+
+.up-right a{
+    color: #fff;
+    display: block;
+    line-height: 1.8;
+    border-radius: 23px;
+    height: 38px;
+}
+
+.bacgroun{
+    width: 100%;
+    background-image: url(../aks/homepod_mini__eusgu3sbls4m_large.jpg);
+    height: 660px;
+    background-size: 96%;
+    background-repeat: no-repeat;
+    background-position: top;
+    margin-top: -131px;
+}
+.Fitness-toch{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+}
+.left-down{
+    width: 46%;
+    margin: 35px 15px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+.right-down{
+    width: 46%;
+    text-align: center;
+    margin: 35px 15px;
+    background-color: #f9f9f9;
+}
+.L-i-1{
+    margin: 0 15px;
+    font-size: 21px;
+    
+    margin: 0 18px;
+    background: #0088ff;
+    width: 59px;
+    height: 38px;
+    border-radius: 50px;
+}
+.L-i-1 .a{
+    color: #fff;
+    display: block;
+    height: 38px;
+    border-radius: 21px;
+    line-height: 1.8;
+}
+.l-I{
+    line-height: 1.9;
+}
+.up .Mini{
+    font-size: 48px;
+    font-family: 'iPhone3';
+}
+
+.airpod{
+    width: 94%;
+    margin: 0 auto;
+    height: 500px;
+    display: flex;
+    background-color: #f9f9f9;
+}
+
+
+.Airpod-paragraph{
+    width: 57%;
+}
+.Airpod-pro{
+    width: 66%;
+}
+.Airpod-pro img{
+    width: 75%;
+    margin: 122px 60px 160px 0px;
+}
+.Airpod-paragraph div{
+    padding-left: 15.10144%;
+    margin-top: 129px;
+}
+.p-2{
+    width: 434px;
+    font-size: 22px;
+    margin-top: .8em;
+    
+}
+.p-1{
+    font-size: 50px;
+    font-weight: 700;
+    
+}
+.Airpod-paragraph ul{
+    display: flex;
+    margin-top: .8em;
+}
+.Airpod-paragraph .ul-li{
+    margin-right: 41px;
+    font-size: 21px;
+    
+    width: 51px;
+    height: 32px;
+    text-align: center;
+    line-height: 1.5;
+    border-radius: 47px;
+}
+.learn:hover a{
+    text-decoration: underline ;
+}
+.learn{
+    font-size: 21px;
+    
+    height: 26px;
+    text-align: center;
+    line-height: 1.6;
+}
+.learn a{
+    color: #0066cc;
+}
+.Airpod-paragraph .ul-li a{
+    display: block;
+    border-radius: 14px;
+    height: 32px;
+    color: white;
+    background: #0071e3;
+}
+.Airpod-paragraph li{
+    font-size: 21px;
+    
+    text-align: center;
+}
+
+.Airpod-paragraph li i{
+    vertical-align: middle;
+    margin: 3px 3px 4px;
+}
+
+
+
+.KING-airpod{
+    width: 100%;
+    height: 528px;
+}
+
+
+
+.footer{
+    width: 100%;
+    background: #f9f9f9;
+}
+
+
+.footer-down{
+    display: flex;
+    flex-flow: wrap;  
+}
+.footer-zero{
+    width: 40%;
+    text-align: center;
+    
+}
+
+
+.footer-one{
+    width: 40%;
+    height: 300px;
+    text-align: center; 
+}
+
+.span{
+    margin-top: 0.8em;
+    display: block;
+    color: #06c;
+}    
+
+
+.footer-zero .iMg{
+    width: 17%;
+}
+.footer-zero .free{
+    margin-top: 0.8em;
+    color: #747476;     
+}
+.footer-zero a i{
+    vertical-align: middle;
+    margin: 3px 3px 4px;
+}
+.footer-zero a{
+    display: block;
+    width: 217px;
+    margin: 0 auto;
+}
+
+.free2{
+    margin-top: 0.8em;
+    color: #747476;
+}
+
+
+
+
+.delivery{
+    font-family: 'iPhone3';
+    color: black;
+    font-size: 18px;
+}
+
+.footer-zero a:hover .span{
+    text-decoration: underline;
+}
+.footer-one a:hover .span{
+    text-decoration: underline;
+}
+
+.footer-down img{
+    width: 18%;
+}
+
+
+.footer-one a{
+    display: block;
+    width: 234px;
+    margin: 0 auto;
+}
+.footer-one a i{
+    vertical-align: middle;
+    margin: 3px 3px 4px;
+}
+
+.Big-para{
+    width: 100%;
+    margin-top: 10px;
+}
+.Smal{
+    width: 75%;
+    margin: 0 auto;
+    border-bottom: 2px solid #d2d2d7;
+}
+ol{
+    font-size: 13px;
+    line-height: 1.33337;
+    color: #4b4b4e;
+    margin-left: 16px;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+ol li{
+    padding-bottom: 0.8em;
+}
+.Smal ul li{
+    font-size: 13px;
+    line-height: 1.33337;
+    color: #8d8d91;
+    letter-spacing: -.01em;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.li-par{
+    margin-bottom: 15px;
+}
+
+.ull-end{
+    display: flex;
+    height: 21px;
+}
+.li-end{
+    line-height: 1.6;
+    margin: 0 15px 0 0;
+}
+#logo-end{
+    font-size: 21px;
+    color: #515154;
+}
+#logo-end:hover{
+    color: rgb(0, 0, 0);
+}
+#em{
+    font-weight: 500;
+    font-size: 25px;
+    margin: 0 8px 0 -6px;
+    color: #d6d6da;
+}
+.li-end a{
+    color: #949496;
+    font-size: 16px;
+}
+
+.div-end{
+    width: 75%;
+    margin: 15px auto;
+}
+
+
+
+
+
+
+.footer{
+    width: 100%;
+}
+
+
+.footer-down{
+    width: 76%;
+    display: flex;
+    margin: 0 auto;
+    flex-flow: wrap;
+    justify-content: center;
+    border-bottom: 2px solid #d2d2d7;
+}
+
+.LabeL{
+    color: #e2e2e2;
+    margin: 10px 0px;
+    font-size: 9px;
+    display: block;
+    font-family: sans-serif;
+}
+
+li{
+    color: #8d8d91;
+    font-size: 12px;
+    font-family: sans-serif;    
+}
+.paragraph-footer{
+    width: 185px;
+    margin: 10px;
+
+}
+.king-a{
+    color: #8d8d91;
+}
+.king-a:hover{
+    text-decoration: underline;
+}
+.footer-buttom{
+    width: 100%;
+    height: 58px;
+    padding: 25px 0;
+}
+.shop{
+    color: #8d8d91;
+    
+    font-size: 13px;
+    height: 29px;
+    border-bottom: 1px solid rgb(210, 210, 215);
+}
+.shop a{
+    color: #478fd9;
+    
+}
+.shop a:hover{
+    text-decoration: underline;
+}
+.footer-buttom-border{
+    display: flex;
+    margin-top: 10px;
+}
+.footer-buttom-border ul{
+    display: flex;
+
+}
+.footer-buttom-border p{
+    color: #c1bcc5;
+    
+    font-size: 13px;
+    margin-right: 29px;
+}
+.footer-buttom-border .p{
+    
+    font-size: 13px;
+    text-align: end;
+    margin-right: 12px;
+    color: #848487;
+}
+.footer-buttom-border ul li a{
+    color: #848487;
+    padding: 2px 12px;
+}
+.footer-buttom-border ul li a:hover , .footer-buttom-border .p:hover{
+    text-decoration: underline;  
+
+}
+
+.footer-buttom-border ul li a:last-child{
+    border-right: 1px solid;
+    border-color: #58585c;
+} 
+.footer-buttom-border ul li:last-child a{
+    border-right: none;
+}
+.footer-buttom-border .The-end{
+    width: 150px;
+}
+.The-end{
+    color: blue;
+}
+.Li-king-end{
+    margin-bottom: 15px;
+}
